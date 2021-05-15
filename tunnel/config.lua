@@ -8,8 +8,8 @@ return {
 	["fuel_prerequisite"] = false, -- true means it needs enough fuel to complete mining
 
 	["log_mining_list"] = true, -- will calculate blocks mined and what type at the end of run
-	["mining_log_folder"] = "logs/tunnel",
-	["mining_save_file"] = "saves/tunnel.lua",
+	["mining_log_folder"] = "programs/tunnel/logs",
+	["mining_save_file"] = "programs/tunnel/saves/tunnel.lua",
 
 	["wait_to_make_bridge"] = false, -- if true turtle will stop if it has no block to make bridge with and wait.
 	["max_bridge_block_stock"] = 64, -- recommended as math.huge for valuable bridge blocks.
